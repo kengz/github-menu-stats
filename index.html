@@ -1,17 +1,16 @@
-<!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>Electron boilerplate</title>
-		<link rel="stylesheet" href="index.css">
-	</head>
-	<body>
-		<div class="container">
-			<header>
-				<h1>Electron boilerplate</h1>
-			</header>
-			<section class="main"></section>
-			<footer></footer>
-		</div>
-	</body>
-</html>
+<!DOCTYPE html>
+<title>Electron boilerplate</title>
+<link rel="stylesheet" href="index.css">
+
+<div class="container">
+	<header>
+		<h1>Electron boilerplate</h1>
+		<h1 id='tray-text'>A sample text.</h1>
+	</header>
+	<section class="main"></section>
+	<footer></footer>
+</div>
+
+<script>
+   require('./renderer-process/tray')
+</script>
