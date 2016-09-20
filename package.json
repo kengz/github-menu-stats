@@ -1,14 +1,14 @@
 {
   "name": "github-menu-stats",
-  "productName": "Github stats directly in your menu bar using Electron and Github GraphQL",
+  "productName": "Github Menu Stats",
   "version": "0.0.0",
-  "description": "My priceless app",
+  "description": "Github stats directly in your menu bar using Electron and Github GraphQL",
   "license": "MIT",
   "repository": "kengz/github-menu-stats",
   "author": {
     "name": "kengz",
     "email": "kengzwl@gmail.com",
-    "url": "kengz.me"
+    "url": "https://github.com/kengz"
   },
   "scripts": {
     "test": "xo",
@@ -17,8 +17,7 @@
   },
   "files": [
     "index.js",
-    "index.html",
-    "index.css"
+    "index.html"
   ],
   "keywords": [
     "electron-app",
