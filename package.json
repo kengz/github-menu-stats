@@ -3,26 +3,25 @@
   "productName": "Github Menu Stats",
   "version": "0.0.0",
   "description": "Github stats directly in your menu bar using Electron and Github GraphQL",
-  "license": "MIT",
-  "repository": "kengz/github-menu-stats",
-  "author": {
-    "name": "kengz",
-    "email": "kengzwl@gmail.com",
-    "url": "https://github.com/kengz"
-  },
   "scripts": {
     "test": "xo",
     "start": "electron .",
     "build": "electron-packager . --out=dist --asar --overwrite --all"
   },
-  "files": [
-    "index.js",
-    "index.html"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kengz/github-menu-stats.git"
+  },
   "keywords": [
     "electron-app",
     "electron"
   ],
+  "author": "kengz <kengzwl@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kengz/github-menu-stats/issues"
+  },
+  "homepage": "https://github.com/kengz/github-menu-stats#readme",
   "dependencies": {
     "electron-debug": "^1.0.0"
   },
